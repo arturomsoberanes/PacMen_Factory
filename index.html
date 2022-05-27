@@ -7,12 +7,17 @@
     <title>PacMan Factory</title>
   </head>
   <body>
-    <div class="container">
-      <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-      <button onclick='update()' width='200' height='30'>Start Game</button>
-      <div id='game'>
+    <header class="header">
+      <h1>PacMen Factory</h1>
+    </header>
+    <main class="container">
+      <div class="buttons">
+        <button onclick='makeOne()'>Add PacMan</button>
+        <button onclick='update()'>Start Game</button>
       </div>
-    </div>
+      <div class="gameArea" id='game'>
+      </div>
+    </main>
     <script src="./js/factory.js"></script>
   </body>
 </html>
