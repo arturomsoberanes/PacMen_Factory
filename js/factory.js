@@ -1,7 +1,5 @@
 const pacArray = ['./img/pacman.png', './img/pacman2.png'];
 var focus = 0;
-var direction = 0;
-var started = false;
 
 const pacMen = []; // This array holds all the pacmen
 
@@ -46,20 +44,20 @@ function update() {
       item.newimg.style.top = item.position.y + "px";
       item.newimg.src = pacArray[focus];
     })
-  if(!started){
-    setInterval(update, 100);
-    started = true;
-  }
+    setTimeout(update, 100);
 }
 
 function checkCollisions(item) {
-  //
-  // detect collision with all walls and make pacman bounce
-  //
-  if(item.position.x + item.velocity.x + item.newimg.width > window.innerWidth || item.position.x + item.velocity.x < 0){
+  let gameArea = document.getElementById("game");
+  let borderX = gameArea.clientWidth;
+  let borderY = gameArea.clientHeight;
+  let itemPVW_X = item.position.x + item.velocity.x + item.newimg.width;
+  let itemPVW_Y = item.position.y + item.velocity.y + item.newimg.height; 
+
+  if( itemPVW_X > borderX || item.position.x + item.velocity.x < 0){
     return item.velocity.x = -item.velocity.x;
   }
-  if(item.position.y + item.velocity.y + item.newimg.height > window.innerHeight || item.position.y + item.velocity.y < 0 ){
+  if( itemPVW_Y > borderY || item.position.y + item.velocity.y < 0 ){
     return item.velocity.y = -item.velocity.y;
   } 
 }
