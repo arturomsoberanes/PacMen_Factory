@@ -14,7 +14,9 @@
 }
 
 /*End fonts*/
-
+audio {
+  display:none;
+}
 body {
   background-color: #343434;
   padding: 2em;
@@ -41,7 +43,7 @@ body {
   display:flex;
   justify-content:center;
   flex-direction:column;
-  width: 80%;
+  width: 90%;
   max-width: 700px;
   margin:auto;
   margin-top:4em;
@@ -63,6 +65,9 @@ body {
   border-image-slice: 1;
   border-image-source:linear-gradient(to left, #daa520, #d53a9d);
   padding: 2em 0 3em 0;
+}
+.buttons button:hover {
+  background:linear-gradient(to left, #743ad5, #000000);
 }
 .gameArea {
   margin-top:2em;

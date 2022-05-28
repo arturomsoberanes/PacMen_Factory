@@ -34,17 +34,19 @@ function makePac() {
 }
 
 function update() {
-    focus = (focus + 1) % 2;
-    pacMen.forEach((item) => {
-      checkCollisions(item)
-      item.position.x += item.velocity.x;
-      item.position.y += item.velocity.y;
+  focus = (focus + 1) % 2;
+  pacMen.forEach((item) => {
+    checkCollisions(item)
+    item.position.x += item.velocity.x;
+    item.position.y += item.velocity.y;
 
-      item.newimg.style.left = item.position.x + "px";
-      item.newimg.style.top = item.position.y + "px";
-      item.newimg.src = pacArray[focus];
-    })
-    setTimeout(update, 100);
+    item.newimg.style.left = item.position.x + "px";
+    item.newimg.style.top = item.position.y + "px";
+    item.newimg.src = pacArray[focus];
+  })
+  setTimeout(update, 100);
+  let MusicPac = document.getElementById("MusicPac");
+  MusicPac.play();
 }
 
 function checkCollisions(item) {
@@ -64,5 +66,7 @@ function checkCollisions(item) {
 
 function makeOne() {
   pacMen.push(makePac()); // add a new PacMan
+  let MusicEat = document.getElementById("MusicEat");
+  MusicEat.play();
 }
 
