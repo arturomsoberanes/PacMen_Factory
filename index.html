@@ -9,18 +9,31 @@
   </head>
   <body id="body">
     <header class="header">
-      <h1>PacMen Factory</h1>
+      <h1>
+        <span>PacMen</span>
+        <span>Factory</span>
+      </h1>
     </header>
     <main class="container">
-      <div class="buttons">
+      <section class="buttonAudio">
+        <img src="./img/soundOn.png" alt="soundOn">
+      </section>
+      <section class="buttons">
         <button onclick='makeOne()'>Add PacMan</button>
-        <button onclick='update()'>Start Game</button>
-      </div>
-      <div class="gameArea" id='game'>
-      </div>
+        <button onclick='update()'>Play</button>
+      </section>
+      <section class="gameArea" id='game'></section>
     </main>
     <audio id="MusicEat" src="./music/pacman_eat.m4a"></audio>
     <audio id="MusicPac" src="./music/Pacman_Music.mp3"></audio>
+    <footer class="footer">
+      <section class="copy">
+        Copyright &copy 2022 - MITXPRO
+      </section>
+      <section class="author">
+        Made with <img src="./img/heart.png" alt="Love"> for <a href="https://github.com/arturomsoberanes">Arturo Soberanes</a>
+      </section>
+    </footer>
     <script src="./js/factory.js"></script>
   </body>
 </html>
