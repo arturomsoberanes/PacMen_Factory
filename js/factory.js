@@ -1,5 +1,7 @@
 const pacArray = ['./img/pacman.png', './img/pacman2.png'];
 var focus = 0;
+var mute = false;
+var MusicPac = document.getElementById("MusicPac");
 
 const pacMen = []; // This array holds all the pacmen
 
@@ -45,7 +47,6 @@ function update() {
     item.newimg.src = pacArray[focus];
   })
   setTimeout(update, 100);
-  let MusicPac = document.getElementById("MusicPac");
   MusicPac.play();
 }
 
@@ -68,5 +69,20 @@ function makeOne() {
   pacMen.push(makePac()); // add a new PacMan
   let MusicEat = document.getElementById("MusicEat");
   MusicEat.play();
+}
+
+function sound(){
+  let sound = document.getElementById("speaker");
+
+  if(!mute){
+    sound.src = "./img/soundOff.png"
+    MusicPac.muted = true
+    mute = true
+  }else{
+    sound.src = "./img/soundOn.png"
+    MusicPac.muted = false
+    mute = false
+  }
+
 }
 
