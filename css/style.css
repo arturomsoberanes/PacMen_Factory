@@ -16,6 +16,11 @@ a {
   src: url(../fonts/PAC-FONT.TTF);
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
 /*End fonts*/
 audio {
   display:none;
@@ -114,7 +119,7 @@ body {
   align-items:center;
   flex-direction: column;
   font-size:1rem;
-  font-family:arial;
+  font-family:"Poppins";
   color:white;
 }
 .author img {
