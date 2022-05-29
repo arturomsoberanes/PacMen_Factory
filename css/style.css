@@ -82,14 +82,15 @@ body {
   height: 30px;
   width: 200px;
   color: #daa520;
-  font-family: 'PacMan';
+  font-family: 'Poppins';
+  font-size:1.2em;
   background-color: transparent;
   border: 0;
   cursor:pointer;
   border: 4px solid;
   border-image-slice: 1;
   border-image-source:linear-gradient(to left, #daa520, #d53a9d);
-  padding: 2em 0 3em 0;
+  padding: 1em 0 2.5em 0;
   transition-duration: .1s;
 }
 .buttons button:hover {
