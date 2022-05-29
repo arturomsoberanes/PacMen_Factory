@@ -11,7 +11,7 @@
   <a href="#art-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag">Installation</a> &#xa0; | &#xa0;
-  <a href="#joystick-how-to-play">License</a> &#xa0; | &#xa0;
+  <a href="#joystickhow-to-play">How to Play</a> &#xa0; | &#xa0;
   <a href="#briefcase-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/arturomsoberanes" target="_blank">Author</a>
 </p>
