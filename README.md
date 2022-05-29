@@ -32,8 +32,8 @@ If you want to try it just click [here](https://arturomsoberanes.github.io/PacMe
 
 These are the list of currect improvements:
 
-:diamonds: Make it possible to add ghosts.	
-:diamonds: That the pacman disappear when a ghost touches them.
+- :diamonds: Make it possible to add ghosts.	
+- :diamonds: That the pacman disappear when a ghost touches them.
 
 ## :art: Technologies ##
 
@@ -59,8 +59,8 @@ $ cd PacMen_Factory
 ## :joystick:	How to Play ##
 
 Open index.html and you can see two buttons "Add PacMan" and "Play"
--To add a PacMan just click "Add PacMan"
--To play just click on "Play"
+- To add a PacMan just click "Add PacMan"
+- To play just click on "Play"
 If you don't want music, just click the sound button
 
 
