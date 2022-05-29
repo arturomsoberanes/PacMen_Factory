@@ -2,7 +2,7 @@
   <img src="./img/pacman.png"  width="100" height="100">   
 </div>
 
-# Welcome to Pac-Men Factory
+# <h1 align="center">Pac-Men Factory</h1>
 
 <p align="center">
   <a href="#dart-description">Description</a> &#xa0; | &#xa0; 
