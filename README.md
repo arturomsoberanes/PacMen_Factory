@@ -10,7 +10,7 @@
   <a href="#memo-improvements">Improvements</a> &#xa0; | &#xa0;
   <a href="#art-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag">Installation</a> &#xa0; | &#xa0;
+  <a href="#toolbox-installation">Installation</a> &#xa0; | &#xa0;
   <a href="#joystickhow-to-play">How to Play</a> &#xa0; | &#xa0;
   <a href="#briefcase-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/arturomsoberanes" target="_blank">Author</a>
@@ -45,7 +45,7 @@ These are the list of currect improvements:
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
 
-## :checkered_flag: Installation ##
+## :toolbox: Installation ##
 
 ```bash
 # Clone this project
